@@ -1,3 +1,19 @@
 .info-card{
     padding-bottom: 1000px;
+    background-image: linear-gradient(to right,  #fff,  #215f7b);;
+
+}
+
+.title-card{
+    text-align: center;
+}
+
+.title-card h1{
+    font-family: 'IBM Plex-Sans', sans-serif;
+    font-size: 100px;
+}
+
+
+.title-card h2{
+    font-family: 'Inter', sans-serif;
 }

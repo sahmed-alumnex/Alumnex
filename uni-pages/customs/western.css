@@ -1,0 +1,210 @@
+.name-card{
+    padding: 20px;
+    background-color: rgb(179, 20, 179);
+    text-align: center;
+    background-image: linear-gradient(to right, #4f2682, #a3a9ac);;
+
+}
+
+.name-card h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+}
+
+.wrapper{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    margin: 15px;
+    width: 25%;
+}
+
+.collapsible{
+    max-width: 450px;
+    overflow: hidden;
+    font-weight: 500;
+
+}
+.collapsible input{
+    display: none;
+}
+
+.faculties-options{
+    display: flex;
+    flex-direction: row;
+}
+
+.reps{
+    padding-bottom: 100px;
+}
+.reps h1{
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.pf-img{
+    border-radius: 60px;
+    height: 120px;
+    /*transform: translateY(-2rem);*/
+}
+
+.rep-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.title-rep{
+    text-align: center;
+    margin: 10px;
+    margin-left: 30px;
+
+    background-color: rgb(160, 159, 159);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.title-rep h2{
+    font-family: 'Inter', sans-serif;
+}
+
+.email-btn{
+    text-align: center;
+    margin: 30px;
+}
+
+.rep-info{
+    margin: 10px;
+    background-color: rgb(160, 159, 159);
+    padding: 15px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.rep-info h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.rep-socials{
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+.rep-info p{
+    margin-top: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.email-btn button{
+    color: aliceblue;
+    font-size: 90%;
+    background-color: cadetblue;
+    border:transparent;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 1s;
+    width: 250px;
+}
+
+.collapsible label{
+    position: relative;
+    font-weight: 600;
+    background: #fff;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1), 0 4px 11px 0 rgba(0, 0, 0, .08);
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px 0;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.info-card{
+    text-align: center;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding-bottom: 100px;
+
+}
+
+.faculties-card{
+    text-align: center;
+    background-image: linear-gradient(to bottom,  #fff,  #215f7b);;
+    padding-bottom: 500px;
+}
+
+.faculties-card h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 60px;
+}
+
+
+.info-card h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.info-card p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+
+}
+
+.rep-card h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.collapsible label:after{
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    width: 18px;
+    height: 18px;
+    background: url(arrow.svg) no-repeat 0 0;
+}
+
+.collapsible-text{
+    max-height: 1px;
+    overflow: hidden;
+    border-radius: 4px;
+    line-height: 1.4;
+    position: relative;
+    top: -100%;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    
+
+}
+.collapsible input:checked +label:after{
+    transform: rotate(90deg);
+    transition: all 0.3s ease;
+
+}
+.collapsible input:checked ~ .collapsible-text{
+    max-height: 300px;
+    padding-bottom: 25px;
+    background: #fff;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1), 0 4px 11px 0 rgba(0, 0, 0, .08);
+    opacity: 1;
+    top:0
+}
+
+.collapsible-text h2{
+    margin-bottom: 10px;
+    padding: 15px 15px 0;
+    color: #1c1c6b;
+}
+
+.collapsible-text p{
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+
+}

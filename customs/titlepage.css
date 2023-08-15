@@ -46,11 +46,31 @@
     padding-top: 50px;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 500px;
+    padding-bottom: 50px;
+}
+
+.contact-card{
+    text-align: center;
+    background-image: linear-gradient(to   right, #3d9ac5 , #83939b);
+    padding-bottom: 120px;
+
+
+}
+
+.contact-title{
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.contact-card-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
 }
 
 .about-calltoaction button{
-    width: 200px;
+    width: 150px;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
     border-color: #215f7b;
@@ -60,6 +80,27 @@
     margin-right: 5px;
     background-color: #215f7b;
     color: #fff;
+}
+
+.contact-button{
+    margin-top: 10px;
+}
+
+.contact-button button{
+    width: 125px;
+    font-size: 20px;
+    height: 35px;
+    font-family: 'Inter', sans-serif;
+    background-color: gray;
+    border: gray;
+    color: #fff;
+
+    border-radius: 15px;
+}
+
+.contact-button :hover{
+    background-color: #fff;
+    color: gray;
 }
 
 .about-calltoaction :hover{

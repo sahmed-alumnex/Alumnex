@@ -101,14 +101,14 @@
 
 .about-title{
     text-align: center;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     background-image: linear-gradient(to right, #3386ac , #a3a9ac);;
 
 }
 
 .about-title h1{
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 .pf-img{
