@@ -1,0 +1,118 @@
+
+
+.slogan{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 150px;
+    margin: 0;
+}
+
+
+.description-slogan{
+    font-family: 'Kanit', sans-serif;
+    margin-top: -35px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600px;
+
+
+}
+.graphic{
+    width: 100%;
+}
+
+.calltoaction {
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    border-radius: 20px;
+    background-color: grey;
+    color: #fff;
+}
+
+.calltoaction p{
+    margin: 5px;
+    font-weight: bold;
+}
+
+.calltoaction :hover{
+    color: #acdef5
+}
+
+.about-card-main{
+    margin-left: 10px;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 500px;
+}
+
+.about-calltoaction button{
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    border-color: #215f7b;
+    border-radius: 20px;
+    height: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #215f7b;
+    color: #fff;
+}
+
+.about-calltoaction :hover{
+    background-color: #fff;
+    color: #215f7b;
+    
+}
+
+
+.about-card-main h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 55px;
+}
+
+.about-card-main p{
+    margin-top: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+.card-paragraph{
+    width: 50%;
+    padding-bottom: 50px;
+
+}
+.card-image{
+    width: 50%;
+    text-align: center;
+}
+
+.button-slogan{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.about-calltoaction{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.titlepage{
+    background-image: linear-gradient(to  bottom right, #215f7b , #c4e5f5);;
+    padding-top: 250px;
+    padding-bottom: 600px;
+}
+
+
+@media screen and ( max-width: 550px ) { 
+    .about-card-main {  flex-direction: column;}  
+    .card-image  { width: 100%; } 
+    .card-paragraph  { width: 100%; } 
+    
+
+    
+}
+

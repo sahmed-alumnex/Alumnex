@@ -1,0 +1,107 @@
+.TBD-Card{
+    text-align: center;
+    padding-bottom: 100px;
+    background-color: lightskyblue;
+}
+
+.TBD-Card h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.TBD-Card p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.school-card{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+
+}
+.institutions-card{
+    background-image: linear-gradient(to right, #fff, #fff , #9cddfc,  #69cdfc);;
+}
+
+.school{
+    display: flex;
+    flex-direction: column;
+
+}
+.school-logo{
+    text-align: center;
+    width: 20%;
+    padding-bottom: 10px;
+}
+.school-logoother{
+    text-align: center;
+    width: 20%;
+}
+.school-logoother img{
+    width: 200px;
+
+}
+
+.school-logo img{
+    width: 200px;
+    border-radius: 100px;
+
+}
+
+.school-text{
+    width: 75%;
+    padding-bottom: 100px;
+
+}
+
+.school-text h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.school-text p{
+    font-family: 'Inter', sans-serif;
+    font-weight: regular;  
+    font-size: 18px;  
+}
+
+.school-text button{
+    width: 150px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    border-color: #215f7b;
+    border-radius: 20px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #215f7b;
+    color: #fff;
+}
+
+.school-connect  :hover{
+    background-color: #fff;
+    color: #215f7b;
+}
+
+
+.title-card{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title-card h1{
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+@media screen and ( max-width: 550px ) { 
+    .school-card {  flex-direction: column;}  
+    .school-logo { width: 100%; } 
+    .school-text  { width: 100%; } 
+
+    
+}
